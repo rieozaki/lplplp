@@ -1,0 +1,387 @@
+@charset "UTF-8";
+
+/* 共通部分
+------------------------------- */
+html {
+    font-size: 16px;
+    color:#586365
+}
+body{
+    font-family:'Noto Sans JP', sans-serif;
+    line-height:1.7;
+}
+
+a,a:visited{
+  text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* HEADER
+------------------------------- */
+.logo {
+  width: 140px;
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+.main-nav {
+  display: flex;
+  font-size: 16px;
+  margin-top: 40px;
+  margin-right: 40px;
+  list-style: none;
+}
+.main-nav li {
+  margin-left: 28px;
+}
+.main-nav a:hover {
+  color: #4DC0B2;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav:visited{
+    text-decoration: none;
+    color:#586365
+  } 
+
+.card-a:visited{
+    text-decoration: none;
+    color:#586365
+  } 
+
+.card-a:hover {
+    color: #4DC0B2;
+  }
+
+.btn-1 {
+  background: #ffffff;
+  color: #37AB9D;
+  border: solid 2px #37AB9D;
+  border-radius: 20px;
+  padding: 8px 32px;
+  text-decoration: none; /*文字の下線をなくす*/
+ }
+ .btn-1:hover { /*マウスが乗ったときの変化を設定*/
+  background-color: #ffffff; /*ボタンの背景の色*/
+  color: #4DC0B2;  /*フォントの色*/
+  text-decoration:none;  /*文字の下線をなくす*/
+ }
+
+
+.btn-2 {
+  background: #37AB9D;
+  color: #fff;
+  border-radius: 20px;
+  padding: 8px 32px;
+}
+.btn-2:hover {
+  background: #4DC0B2;
+  color: #ffffff;
+  text-decoration:none; 
+}
+
+.btn-3 {
+  background: #ffffff;
+  color: #37AB9D;
+  border: solid 2px #37AB9D;
+  border-radius: 20px;
+  padding: 8px 32px;
+  text-decoration: none; /*文字の下線をなくす*/
+  margin-top:15px;
+  display:inline-block;
+ }
+ .btn-3:hover { /*マウスが乗ったときの変化を設定*/
+  background-color: #ffffff; /*ボタンの背景の色*/
+  color: #4DC0B2;  /*フォントの色*/
+  text-decoration:none;  /*文字の下線をなくす*/
+ }
+
+.btn-4 {
+  background: #37AB9D;
+  color: #fff;
+  border-radius: 20px;
+  padding: 8px 32px;
+  margin-top:15px;
+  display:inline-block;
+}
+.btn-4:hover {
+  background: #4DC0B2;
+  color: #ffffff;
+  text-decoration:none; 
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+}
+
+header{
+  height:100px;
+  background-color:white;
+  position: fixed;
+  top:0;
+  z-index:1;
+}
+
+.container{
+ display: flex;
+ justify-content: space-between;
+ margin:200px 32px 0 32px
+}
+
+h1{
+  font-size:40px;
+  line-height:1;
+  color:#586365
+}
+
+h2{
+  font-size:40px;
+  line-height:1;
+  color:#586365
+}
+
+.main-vidual {
+  width: 575px; /*画像サイズ指定*/
+  padding: 0;
+}
+
+.content-1{
+  display: flex;
+  justify-content: space-between;
+  margin:32px 32px 16px 32px
+ }
+
+ .content-2{
+  display: flex;
+  justify-content: space-between;
+  margin:32px 32px 16px 32px
+ }
+
+ .content-3{
+  display: flex;
+  justify-content: space-between;
+  margin:32px 32px 16px 32px
+ }
+
+ .content{
+  width: 460px; /*画像サイズ指定*/
+  padding: 0;
+}
+
+h3{
+  font: size 28px;
+  line-height:1;
+  color:#586365
+}
+
+
+.card {
+  width: 500px;
+  height: 600px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #DFDFDF;
+}
+.card-img {
+  max-width: 400px;
+  height: auto;
+  margin:48px 48px 16px 48px
+}
+.card-content {
+  padding: 20px;
+}
+.card-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 900;
+  text-align: center;
+}
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+.card-link {
+  text-align: center;
+  border-top: 1px solid #eee;
+  padding: 20px;
+}
+
+.interview{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+form{
+	width:890px; /*お好みで調整してください*/
+	margin:0 auto;
+}
+.inputs{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.label{
+	float: left;
+	margin-right: 20px;
+	width:135px;
+	padding-left: 10px;
+}
+.input_form{
+	float: left;
+	width:300px;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea{
+	border: solid 1px #e0e0e0;
+	border-radius:5px;
+	padding:8px;
+	font-size: 15px;
+}
+textarea{
+	height: 100px;
+}
+.btn-area{
+	text-align: center;
+}
+input[type="submit"]
+{
+	border: none;
+	color: #fff;
+	padding: 10px 20px;
+	margin: 0 10px;
+	border-radius: 10px;
+}
+
+.form {
+  text-align:center;
+  height: 350px;                  /* 高さ指定 */
+  padding:  20px;                 /* 余白指定 */    
+  background-color: #ffff;   /* 背景色指定 */
+}
+
+.kaisetu{
+  height: 400px;                  /* 高さ指定 */
+  padding:  20px;                 /* 余白指定 */    
+  background-color: #37AB9D;   /* 背景色指定 */
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  margin: 0px 10px;
+  padding: 10px 20px;
+}
+
+
+/*アコーディオン*/
+.accordion {
+  width: 100%;
+}
+
+/* inputのチェックボックスを非表示 */
+.accordion-hidden {
+  display: none;
+}
+
+/* 見出しボタン部分 */
+.accordion-open {
+  display: block;
+  padding: 15px 10px 10px 10px;
+  background: #ffffff;
+  border-top: solid 1px #707070;
+  cursor: pointer;
+  margin: 5px 0;
+  position: relative;
+}
+
+/* ＋アイコン */
+.accordion-open::before,
+.accordion-open::after {
+  content: '';
+  width: 20px;
+  height: 3px;
+  background: #707070;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+}
+
+/* アイコンのー */
+.accordion-open::after {
+  transform: translateY(-50%) rotate(90deg);
+  transition: .5s;
+}
+
+/* アコーディオンが開いたらーに */
+.accordion-hidden:checked+.accordion-open:after {
+  transform: translateY(-50%) rotate(0);
+}
+
+/* アコーディオン中身部分 */
+.accordion-inner {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+  opacity: 0;
+  transition: 0.5s;
+  /* 表示速度の設定 */
+  cursor: pointer;
+}
+
+/* チェックボックスにチェックが入ったら中身部分を表示する */
+.accordion-hidden:checked+.accordion-open+.accordion-inner {
+  height: auto;
+  opacity: 1;
+  padding: 10px;
+}
+/* ↑ここまで共通 */
+
+.mt_S{
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+
+/* フッター */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+#footer01 {
+  position: relative;
+  background: #586365;
+}
+ 
+#footer01 .nav a {
+  display: block;
+  padding: 40px 16px;
+  color: #ffffff;
+}
+  #footer01 .nav a:hover {
+    color: #C9C9C9;
+  }
+
+.copyright{
+  color: #ffffff;
+  text-align:center;
+  padding: 0 0 60px 0;
+}
+ 
