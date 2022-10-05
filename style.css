@@ -45,6 +45,11 @@ img {
   justify-content: space-between;
 }
 
+.nav:{
+    text-decoration: none;
+    color:#586365
+  } 
+
 .nav:visited{
     text-decoration: none;
     color:#586365
